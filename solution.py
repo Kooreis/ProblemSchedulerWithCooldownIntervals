@@ -1,7 +1,4 @@
-import time
-import threading
-
-class Task:
-    def __init__(self, task_name, cooldown):
-        self.task_name = task_name
-        self.cooldown = cooldown
+def execute(self):
+        print(f'Executing task: {self.task_name}')
+        time.sleep(self.cooldown)
+        print(f'Task {self.task_name} completed')
